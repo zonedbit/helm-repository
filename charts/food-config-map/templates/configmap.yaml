@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: {{ .Release.Name }}-configmap
 data:
-  drink: {{ .Values.favorite.drink }}
-  dessert: {{ .Values.favorite.dessert }}
+  drink: {{ .Values.favorite.drink | default "not ordered" }}
+  dessert: {{ .Values.favorite.dessert | default "not ordered" }}
