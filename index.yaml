@@ -3,6 +3,16 @@ entries:
   food-config-map:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-08-28T09:14:14.798788848Z"
+    description: A Helm chart for Kubernetes
+    digest: 8ed4fa73bee6fb90785481f278ec77847490fb396f2c54d62a8e215dbed4ffd4
+    name: food-config-map
+    type: application
+    urls:
+    - https://github.com/zonedbit/helm-repository/releases/download/food-config-map-0.3.0/food-config-map-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-08-27T08:08:21.887672914Z"
     description: A Helm chart for Kubernetes
     digest: b332b9df24ff2aefca4251510286edfc7d8e0c9fd081cc7b38c656fe1a51a68e
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/zonedbit/helm-repository/releases/download/food-config-map-0.1.0/food-config-map-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-27T08:08:21.887679313Z"
+generated: "2022-08-28T09:14:14.798822049Z"
