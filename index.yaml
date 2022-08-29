@@ -31,4 +31,15 @@ entries:
     urls:
     - https://github.com/zonedbit/helm-repository/releases/download/food-config-map-0.1.0/food-config-map-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-28T09:14:14.798822049Z"
+  menu-order-cm:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-08-29T17:08:10.920816422Z"
+    description: A Helm chart for Kubernetes
+    digest: 43b10917a6695a85feedde51718222ac931e05d6f22f9c1efb400b87d003b445
+    name: menu-order-cm
+    type: application
+    urls:
+    - https://github.com/zonedbit/helm-repository/releases/download/menu-order-cm-0.3.0/menu-order-cm-0.3.0.tgz
+    version: 0.3.0
+generated: "2022-08-29T17:08:10.921111227Z"
