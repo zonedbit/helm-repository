@@ -1,0 +1,13 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+  namespace: {{ default "flux-system" .Values.dashboards.namespace }}
+  labels:
+    grafana_dashboard: "1"
+data:
+  dashboard-flux-cluster-stats.json: |
+{{ .Files.Get "dashboards/dashboard-flux-cluster-stats.json" | indent 4 }}
+  dashboard-flux-control-plane.json: |
+{{ .Files.Get "dashboards/dashboard-flux-control-plane.json" | indent 4 }}
