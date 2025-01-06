@@ -1,0 +1,18 @@
+# Default values for poc-monitoring.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+# Namespace where to deploy the Flux Grafana dashboards
+dashboards:
+  namespace: flux-system
+  enabled: true
+  component_monitoring: true
+
+# Namespace where to deploy the Prometheus pod monitor
+podmonitor:
+  namespace: flux-system
+
+grafana:
+  enabled: true
+  dashboards:
+    component_monitoring: true
