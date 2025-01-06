@@ -42,4 +42,18 @@ entries:
     urls:
     - https://github.com/zonedbit/helm-repository/releases/download/menu-order-cm-0.3.0/menu-order-cm-0.3.0.tgz
     version: 0.3.0
-generated: "2022-08-29T17:08:10.921111227Z"
+  poc-monitoring:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-01-06T15:47:28.083894722Z"
+    description: Flux Grafana dashboards and Prometheus PodMonitor
+    digest: 048bf96a6a1ec553859d33bd5ae0a3a3465fcb2b27aed0e03e8b5704ea8efd9c
+    maintainers:
+    - email: jane.doe@example.com
+      name: Jane Doe
+    name: poc-monitoring
+    type: application
+    urls:
+    - https://github.com/zonedbit/helm-repository/releases/download/poc-monitoring-0.1.0/poc-monitoring-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-01-06T15:47:28.083995032Z"
