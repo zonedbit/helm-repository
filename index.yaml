@@ -44,6 +44,19 @@ entries:
     version: 0.3.0
   poc-monitoring:
   - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2025-01-08T15:48:45.723697463Z"
+    description: Flux Grafana dashboards and Prometheus PodMonitor
+    digest: 0492f6d211351a99d5eee8d7c275e4b36f7aab1de81828ffdb612c627e277cc6
+    maintainers:
+    - email: jane.doe@example.com
+      name: Jane Doe
+    name: poc-monitoring
+    type: application
+    urls:
+    - https://github.com/zonedbit/helm-repository/releases/download/poc-monitoring-0.2.0/poc-monitoring-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 0.1.0
     created: "2025-01-06T15:47:28.083894722Z"
     description: Flux Grafana dashboards and Prometheus PodMonitor
@@ -56,4 +69,4 @@ entries:
     urls:
     - https://github.com/zonedbit/helm-repository/releases/download/poc-monitoring-0.1.0/poc-monitoring-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-06T15:47:28.083995032Z"
+generated: "2025-01-08T15:48:45.7242024Z"
